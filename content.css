@@ -38,6 +38,16 @@ body#uncc_cs2 .parsons code,
 body#uncc_cs2 .parsons pre {
   background-color: var(--my-bg) !important;
   color: var(--my-fg) !important;
+body#uncc_cs2 .runestone.shortanswer_section {
+  background-color: var(--my-bg) !important;
+  color: var(--my-fg) !important;
 }
+body#uncc_cs2 em.alert {
+  color: var(--my-fg) !important;
+  background-color: transparent !important;
+  font-style: normal;
+}
+}
+
 
 
