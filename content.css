@@ -47,7 +47,33 @@ body#uncc_cs2 em.alert {
   background-color: transparent !important;
   font-style: normal;
 }
+  body#uncc_cs2 .runestone.explainer.ac_section{
+  background-color: var(--my-bg) !important;
 }
+body#uncc_cs2 .runestone.clickablearea_section.isCorrect,
+body#uncc_cs2 .runestone.clickablearea_section.notAnswered,
+body#uncc_cs2 .runestone.clickablearea_section.answered,
+body#uncc_cs2 .runestone.clickablearea_section.needsreview {
+  background-color: var(--my-bg) !important;
+  color: var(--my-fg) !important;
+}
+body#uncc_cs2 .runestone.fillintheblank_section.notAnswered {
+  background-color: var (--my-bg) !important;
+  color: var (--my-fg) !important;
+  border-color: var (--my-bg) !important;
+}
+
+body#uncc_cs2 .ptx-runestone-container .runestone, .runestone-sphinx .runestone {
+  background-color: var(--my-bg);
+  border-color: var(--my-fg);
+  color: var(--my-fg);
+}
+body#uncc_cs2 .ptx-runestone-container .ac_question, .runestone-sphinx .ac_question {
+  background-color: var(--my-bg);
+  border-color: var(--my-fg);
+}
+}
+
 
 
 
