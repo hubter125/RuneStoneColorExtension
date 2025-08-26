@@ -2,7 +2,7 @@ body#uncc_cs2 {
   --my-bg: #ffffff;
   --my-fg: #000000;
 }
-
+/* This was built for the current class I'm in so you'll have to change the css selector to the body id of your course */
 
 body#uncc_cs2 .runestone.multiplechoice_section.isCorrect,
 body#uncc_cs2 .runestone.multiplechoice_section.notAnswered,
@@ -39,4 +39,5 @@ body#uncc_cs2 .parsons pre {
   background-color: var(--my-bg) !important;
   color: var(--my-fg) !important;
 }
+
 
