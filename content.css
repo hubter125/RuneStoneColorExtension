@@ -1,0 +1,42 @@
+body#uncc_cs2 {
+  --my-bg: #ffffff;
+  --my-fg: #000000;
+}
+
+
+body#uncc_cs2 .runestone.multiplechoice_section.isCorrect,
+body#uncc_cs2 .runestone.multiplechoice_section.notAnswered,
+body#uncc_cs2 .runestone.multiplechoice_section .card,
+body#uncc_cs2 .runestone.multiplechoice_section .question,
+body#uncc_cs2 .runestone.multiplechoice_section .runestone {
+  background-color: var(--my-bg) !important;
+  color: var(--my-fg) !important;
+}
+
+
+body#uncc_cs2 .runestone.multiplechoice_section a {
+  color: var(--my-fg) !important;
+}
+
+
+body#uncc_cs2 .runestone.parsons_section.isCorrect,
+body#uncc_cs2 .runestone.parsons_section.notAnswered {
+  background-color: var(--my-bg) !important;
+  color: var(--my-fg) !important;
+}
+
+
+body#uncc_cs2 .parsons div[id^="parsons-"],
+body#uncc_cs2 .parsons div[id^="parson-"],
+body#uncc_cs2 .parsons .sortable-code-container,
+body#uncc_cs2 .parsons .sortable-code {
+  background-color: var(--my-bg) !important;
+  color: var(--my-fg) !important;
+}
+
+body#uncc_cs2 .parsons code,
+body#uncc_cs2 .parsons pre {
+  background-color: var(--my-bg) !important;
+  color: var(--my-fg) !important;
+}
+
