@@ -72,7 +72,11 @@ body#uncc_cs2 .ptx-runestone-container .ac_question, .runestone-sphinx .ac_quest
   background-color: var(--my-bg);
   border-color: var(--my-fg);
 }
+body#uncc_cs2 div.journal div.latexoutput {
+  background-color: var(--my-bg) !important;
 }
+}
+
 
 
 
